@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <label for="">Nome do Aluno: </label>
+                <input type="text" class="form-control" id="campoNome">
+
+                <label for="">Ano de Nascimento: </label>
+                <input type="number" class="form-control" id="campoAno">
+
+                <label for="">CPF: </label>
+                <input type="number" class="form-control" id="campoCPF">
+
+                <label for="">Endereço: </label>
+                <input type="text" class="form-control" id="campoEnd">
+
+                <label for="">Telefone: </label>
+                <input type="number" class="form-control" id="campoTel">
+
+                <label for="">Número da matrícula: </label>
+                <input type="number" class="form-control" id="campoMatr">
+
+                <label for="">Curso: </label>
+                <input type="text" class="form-control" id="campoCurso">
+
+                <label for="">Escola: </label>
+                <input type="text" class="form-control" id="campoEscola">
+
+                <button class="btn btn-primary mt-3" id="cadastro">Cadastrar Aluno</button>
+
+                <h1>Nome: <span id="nome"> </span></h1>
+                <h2>Ano de Nascimento: <span id="ano"> </span></h2>
+                <h2>CPF: <span id="cpf"> </span></h2>
+                <h2>Endereço: <span id="endereco"> </span></h2>
+                <h2>Número de Matrícula: <span id="matricula"> </span></h2>
+                <h2>Curso: <span id="curso"> </span></h2>
+                <h2>Escola: <span id="escola"> </span></h2>
+
+                <div class="row">
+                    <div class="col-6">
+                        <hr>
+                <label for="">Nota1: </label>
+                <input type="number" class="form-control" id="campoNota1">
+
+                <label for="">Nota2: </label>
+                <input type="number" class="form-control" id="campoNota2">
+                
+                <label for="">Nota3: </label>
+                <input type="number" class="form-control" id="campoNota3">
+
+                <label for="">Nota4: </label>
+                <input type="number" class="form-control" id="campoNota4">
+
+                <button class="btn btn-primary mt-3" id="calcular">Calcular Media</button>
+
+                <h3>Nota1: <span id="nota1"> </span></h3>
+                <h3>Nota2: <span id="nota2"> </span></h3>
+                <h3>Nota3: <span id="nota3"> </span></h3>
+                <h3>Nota4: <span id="nota4"> </span></h3>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/Pessoa.js"></script>
+    <script src="./js/Main.js"></script>
+    <script src="./js/Aluno.js"></script>
+</body>
+</html>
